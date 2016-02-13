@@ -1,7 +1,8 @@
 
 
 	def unicorn_name(first_name, last_name)
-		
+	
+		loop do
 	
 		puts "Please input your first name"
 		first_name = gets.chomp.to_s
@@ -40,8 +41,8 @@
 		full_unicorn_name = unicorn_first_name.concat(unicorn_last_name).to_s
 		puts full_unicorn_name
 
-
 	end
+end
 
-unicorn_name("Johanna", "Lang")
+unicorn_name(" ", " ")
 	
